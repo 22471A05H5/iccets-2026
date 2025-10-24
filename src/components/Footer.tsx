@@ -30,7 +30,7 @@ const Footer = () => {
           <Link to="/" className="text-primary hover:underline transition-all duration-300 hover:scale-105 px-2 py-1">Home</Link>
           <Link to="/submission" className="text-primary hover:underline transition-all duration-300 hover:scale-105 px-2 py-1">Submission</Link>
           <Link to="/contact" className="text-primary hover:underline transition-all duration-300 hover:scale-105 px-2 py-1">Contact</Link>
-          <a href="https://annamacharyauniversity.ac.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline transition-all duration-300 hover:scale-105 px-2 py-1">Annamacharya University</a>
+          <a href="https://annamacharyauniversity.edu.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline transition-all duration-300 hover:scale-105 px-2 py-1">Annamacharya University</a>
         </div>
 
         <div className="text-center text-xs sm:text-sm text-muted-foreground px-4">

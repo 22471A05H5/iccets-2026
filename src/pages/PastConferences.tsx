@@ -5,6 +5,7 @@ import PageBanner from "@/components/PageBanner";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, BookOpen, Award } from "lucide-react";
+import e3sLogo from "@/assets/E3s logo.png";
 
 const PastConferences = () => {
   const conferences = [
@@ -84,6 +85,14 @@ const PastConferences = () => {
                       </div>
                     </div>
                     
+                    <div className="flex items-center justify-center p-4 bg-muted/30 rounded-lg">
+                      <img 
+                        src={e3sLogo} 
+                        alt="E3S Web of Conferences" 
+                        className="h-12 hover:scale-110 transition-transform duration-300"
+                      />
+                    </div>
+                    
                     <div className="pt-4 border-t border-border">
                       <Button 
                         className="w-full group/btn bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300"
@@ -97,90 +106,8 @@ const PastConferences = () => {
                 </Card>
               ))}
 
-              {/* E3S Web of Conferences Information */}
-              <Card className="group hover:shadow-xl transition-all duration-500 hover:scale-[1.02] overflow-hidden border-0 shadow-lg">
-                <div className="h-2 bg-gradient-to-r from-green-500 to-teal-600"></div>
-                <CardHeader className="pb-4">
-                  <div className="flex items-start justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="w-16 h-16 rounded-full bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                        E3S
-                      </div>
-                      <div>
-                        <CardTitle className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-                          E3S Web of Conferences
-                        </CardTitle>
-                        <p className="text-lg text-muted-foreground mt-1">Open Access Proceedings Platform</p>
-                      </div>
-                    </div>
-                  </div>
-                </CardHeader>
-                
-                <CardContent className="space-y-6">
-                  <p className="text-foreground leading-relaxed">
-                    E3S Web of Conferences is an Open Access publication series dedicated to archiving conference proceedings in all areas related to Environment, Energy and Earth Sciences. ICCETS 2026 proceedings will be published on this platform.
-                  </p>
-                  
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-                      <BookOpen className="w-5 h-5 text-primary" />
-                      <div>
-                        <p className="font-medium text-sm">Publisher</p>
-                        <p className="text-sm text-muted-foreground">EDP Sciences</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
-                      <Award className="w-5 h-5 text-primary" />
-                      <div>
-                        <p className="font-medium text-sm">Access Type</p>
-                        <p className="text-sm text-muted-foreground">Open Access</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="pt-4 border-t border-border">
-                    <Button 
-                      className="w-full group/btn bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white shadow-lg hover:shadow-xl transition-all duration-300"
-                      onClick={() => window.open('https://www.e3s-conferences.org/', '_blank')}
-                    >
-                      <span>Visit E3S Web of Conferences</span>
-                      <ExternalLink className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
 
-            <div className="mt-16">
-              <Card className="bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20 hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="text-2xl text-center text-primary">Conference Legacy</CardTitle>
-                </CardHeader>
-                <CardContent className="text-center space-y-4">
-                  <p className="text-foreground text-lg leading-relaxed">
-                    ICCETS 2026 represents a new initiative in bringing together researchers, academicians, and industry 
-                    professionals to share cutting-edge research in computational intelligence, emerging technologies, and 
-                    sustainability. The conference aims to establish itself as a premier platform for scientific collaboration 
-                    and knowledge exchange.
-                  </p>
-                  <div className="grid md:grid-cols-3 gap-6 mt-8">
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary mb-2">11</div>
-                      <p className="text-muted-foreground">Conference Themes</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary mb-2">2</div>
-                      <p className="text-muted-foreground">Conference Days</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-primary mb-2">Hybrid</div>
-                      <p className="text-muted-foreground">Conference Mode</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
           </ContentBox>
         </div>
       </main>
