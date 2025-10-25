@@ -5,7 +5,6 @@ import PageBanner from "@/components/PageBanner";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, BookOpen, Award } from "lucide-react";
-import e3sLogo from "@/assets/E3s logo.png";
 
 const PastConferences = () => {
   const conferences = [
@@ -85,13 +84,6 @@ const PastConferences = () => {
                       </div>
                     </div>
                     
-                    <div className="flex items-center justify-center p-4 bg-muted/30 rounded-lg">
-                      <img 
-                        src={e3sLogo} 
-                        alt="E3S Web of Conferences" 
-                        className="h-12 hover:scale-110 transition-transform duration-300"
-                      />
-                    </div>
                     
                     <div className="pt-4 border-t border-border">
                       <Button 

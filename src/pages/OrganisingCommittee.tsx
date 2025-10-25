@@ -18,65 +18,65 @@ const OrganisingCommittee = () => {
 
           <ContentBox>
             <div className="space-y-4 sm:space-y-6 text-left">
-              {/* Chief Patrons and Patrons */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Chief Patron(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. C. Gangi Reddy, Chancellor</p>
-                    <p className="text-sm sm:text-base text-foreground">Sri. C. Abhishek Reddy, Pro-chancellors</p>
-                  </div>
-                </div>
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Patron(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. E. Sai Baba Reddy, Vice-Chancellor</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. N. Mallikarjuna Rao, Registrar</p>
-                  </div>
+              {/* Chief Patrons */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Chief Patron(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. C. Gangi Reddy, Chancellor, Annamacharya University, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Sri. C. Abhishek Reddy, Pro-chancellors, Annamacharya University, Rajampet</p>
                 </div>
               </div>
 
-              {/* General Chairs and Program Chairs */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">General Chair(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. S. M.V. Narayana, Principal, AITS, Rajampet</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. Nalin Behari Dev Choudhury, Professor, NIT, Silchar</p>
-                  </div>
-                </div>
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Program Chair(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. P. Balachennaiah, HoD- EEE</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. S. Albert Alexander, Professor, EEE, VIT, Vellore</p>
-                  </div>
+              {/* Patrons */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Patron(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. E. Sai Baba Reddy, Vice-Chancellor, Annamacharya University, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Dr. N. Mallikarjuna Rao, Registrar, Annamacharya University, Rajampet</p>
                 </div>
               </div>
 
-              {/* Organizing Convenors and Coordinators */}
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Organizing Convenor(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. M. Padma Lalitha, Professor, EEE</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. O. Hemakesavulu, Professor, EEE</p>
-                  </div>
+              {/* General Chairs */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">General Chair(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. S. M.V. Narayana, Principal, AITS, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Dr. Nalin Behari Dev Choudhury, Professor, NIT, Silchar</p>
                 </div>
-                <div>
-                  <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Coordinator(s):</h2>
-                  <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. P. Bhaskara Prasad, Assistant Professor, EEE</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. S. Sarada, Assistant Professor, EEE</p>
-                  </div>
+              </div>
+
+              {/* Program Chairs */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Program Chair(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. P. Balachennaiah, HoD- EEE, Annamacharya University, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Dr. S. Albert Alexander, Professor, EEE, VIT, Vellore</p>
+                </div>
+              </div>
+
+              {/* Organizing Convenors */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Organizing Convenor(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. M. Padma Lalitha, Professor, EEE, Annamacharya University, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Dr. O. Hemakesavulu, Professor, EEE, Annamacharya University, Rajampet</p>
+                </div>
+              </div>
+
+              {/* Coordinators */}
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Coordinator(s):</h2>
+                <div className="ml-4 sm:ml-8 space-y-1">
+                  <p className="text-sm sm:text-base text-foreground">Dr. P. Bhaskara Prasad, Assistant Professor, EEE, Annamacharya University, Rajampet</p>
+                  <p className="text-sm sm:text-base text-foreground">Dr. S. Sarada, Assistant Professor, EEE, Annamacharya University, Rajampet</p>
                 </div>
               </div>
 
               {/* Conference Secretary */}
               <div>
-                <h2 className="text-xl font-bold text-primary mb-3">Conference Secretary:</h2>
-                <div className="ml-8">
-                  <p className="text-base text-foreground">Dr. S. Suresh, Associate Professor, EEE</p>
+                <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Conference Secretary:</h2>
+                <div className="ml-4 sm:ml-8">
+                  <p className="text-sm sm:text-base text-foreground">Dr. S. Suresh, Associate Professor, EEE, Annamacharya University, Rajampet</p>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ const OrganisingCommittee = () => {
                     <p className="text-sm sm:text-base text-foreground">Dr. M. Subba Rao, HOD-CSE, Dean of Student Affairs</p>
                     <p className="text-sm sm:text-base text-foreground">Dr. D. Krishna Mohan Raju, Dean, Innovation and Incubation</p>
                     <p className="text-sm sm:text-base text-foreground">Dr. B. Jayarami Reddy, Dy. Director Admissions</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. N. R. Gowthami, HOD Civil Engineering, Assistant Professor</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. N. R. Gowthami, Assistant Professor & HOD Civil Engineering</p>
                     <p className="text-sm sm:text-base text-foreground">Dr. G. Suresh Babu, Assistant Professor & HOD Mechanical Engineering</p>
                     <p className="text-sm sm:text-base text-foreground">Dr. J. Chinna Babu, Associate Professor & HOD-ECE</p>
                     <p className="text-sm sm:text-base text-foreground">Dr. P Phanindra Kumar Reddy, Associate Professor & HOD-AIDS</p>
