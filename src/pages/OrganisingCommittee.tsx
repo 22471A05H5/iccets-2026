@@ -85,19 +85,19 @@ const OrganisingCommittee = () => {
                 <div>
                   <h2 className="text-lg sm:text-xl font-bold text-primary mb-2 sm:mb-3">Advisor(s):</h2>
                   <div className="ml-4 sm:ml-8 space-y-1">
-                    <p className="text-sm sm:text-base text-foreground">Dr. A. Subbarami Reddy, Dean, Academics</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. N. Sivarami Reddy, Dean, R&D</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. M. Subba Rao, HOD-CSE, Dean of Student Affairs</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. D. Krishna Mohan Raju, Dean, Innovation and Incubation</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. B. Jayarami Reddy, Dy. Director Admissions</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. N. R. Gowthami, Assistant Professor & HOD Civil Engineering</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. G. Suresh Babu, Assistant Professor & HOD Mechanical Engineering</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. J. Chinna Babu, Associate Professor & HOD-ECE</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. P Phanindra Kumar Reddy, Associate Professor & HOD-AIDS</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. N. Penchalaiah, Associate Professor & HOD-AIML</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. L. Obulapathi, Associate Professor & HOD- H&S</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr T Navaneetha, Assistant Professor & HOD- MBA</p>
-                    <p className="text-sm sm:text-base text-foreground">Dr. C. Madana Kumar Reddy, Associate Professor & HOD-MCA</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. A. Subbarami Reddy, Dean, Academics, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. N. Sivarami Reddy, Dean, R&D, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. M. Subba Rao, HOD-CSE, Dean of Student Affairs, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. D. Krishna Mohan Raju, Dean, Innovation and Incubation, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. B. Jayarami Reddy, Dy. Director Admissions, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. N. R. Gowthami, Assistant Professor & HOD Civil Engineering, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. G. Suresh Babu, Assistant Professor & HOD Mechanical Engineering, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. J. Chinna Babu, Associate Professor & HOD-ECE, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. P Phanindra Kumar Reddy, Associate Professor & HOD-AIDS, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. N. Penchalaiah, Associate Professor & HOD-AIML, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. L. Obulapathi, Associate Professor & HOD- H&S, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr T Navaneetha, Assistant Professor & HOD- MBA, AU, Rajampet</p>
+                    <p className="text-sm sm:text-base text-foreground">Dr. C. Madana Kumar Reddy, Associate Professor & HOD-MCA, AU, Rajampet</p>
                   </div>
                 </div>
                 <div>
