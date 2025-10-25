@@ -31,25 +31,25 @@ const Submission = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           <ContentBox className="mb-8 sm:mb-12">
-            <div className="flex items-center gap-3 mb-6 sm:mb-8">
+            <div className="flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8">
               <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
-              <h2 className="text-3xl sm:text-4xl font-bold">Submission</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Submission</h2>
             </div>
             
             <div className="space-y-8">
               <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-primary">Instructions to Authors</CardTitle>
+                  <CardTitle className="text-lg sm:text-xl lg:text-2xl text-primary">Instructions to Authors</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground mb-6">
+                  <p className="text-foreground mb-4 sm:mb-6 text-sm sm:text-base">
                     Authors are requested to follow these guidelines before submitting their papers:
                   </p>
-                  <div className="grid gap-3">
+                  <div className="grid gap-2 sm:gap-3">
                     {submissionGuidelines.map((guideline, index) => (
-                      <div key={index} className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-200">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
-                        <p className="text-foreground text-base leading-relaxed">{guideline}</p>
+                      <div key={index} className="flex items-start gap-2 sm:gap-3 group hover:translate-x-1 sm:hover:translate-x-2 transition-transform duration-200">
+                        <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-500 mt-0.5 flex-shrink-0" />
+                        <p className="text-foreground text-sm sm:text-base leading-relaxed">{guideline}</p>
                       </div>
                     ))}
                   </div>
@@ -58,10 +58,10 @@ const Submission = () => {
 
               <Card className="hover:shadow-lg transition-all duration-300">
                 <CardContent className="space-y-4 pt-6">
-                  <p className="text-foreground text-lg">
+                  <p className="text-foreground text-sm sm:text-base lg:text-lg">
                     We recommend authors to use WORD template. It is planned to publish the proceedings with "E3S Web of Conferences".
                   </p>
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                     <Button 
                       className="w-full justify-between group bg-primary hover:bg-primary/90"
                       onClick={() => {
