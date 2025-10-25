@@ -17,35 +17,39 @@ const AdvisoryCommittee = () => {
           </div>
 
           <ContentBox>
-            <div className="text-center">
-              <h2 className="text-2xl font-bold text-primary mb-8">Advisory Committee Members</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-left max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* National Advisory Committee */}
+              <div>
+                <h2 className="text-2xl font-bold text-primary mb-6">National Advisory Committee:</h2>
                 <div className="space-y-3">
-                  <p className="text-lg text-foreground">Dr. A. Subbarami Reddy</p>
-                  <p className="text-lg text-foreground">Dr. N. Sivarami Reddy</p>
-                  <p className="text-lg text-foreground">Dr. M. Subba Rao</p>
-                  <p className="text-lg text-foreground">Dr. D. Krishna Mohan Raju</p>
-                  <p className="text-lg text-foreground">Dr. B. Jayarami Reddy</p>
-                  <p className="text-lg text-foreground">Dr. N. R. Gowthami</p>
-                  <p className="text-lg text-foreground">Dr. G. Suresh Babu</p>
+                  <p className="text-lg text-foreground">1. Dr. B. Ravi Kumar, Professor, IIT Hyderabad</p>
+                  <p className="text-lg text-foreground">2. Dr. Chandrashekhar N. Bhende, Professor, IIT Bhubaneswar</p>
+                  <p className="text-lg text-foreground">3. Dr. Abdul Gafoor Shaik, Professor, IIT Jodhpur</p>
+                  <p className="text-lg text-foreground">4. Dr. M. Veechari, Professor, IIT Delhi</p>
+                  <p className="text-lg text-foreground">5. Dr. K. Srinivas Reddy, Professor, IIT Madras</p>
+                  <p className="text-lg text-foreground">6. Dr. S.T.G. Raghukanth, Professor, IIT Madras</p>
+                  <p className="text-lg text-foreground">7. Dr. D. Thukaram, Rtd, Professor, IISc Bangalore</p>
+                  <p className="text-lg text-foreground">8. Dr. K. R. Murali Mohan, Rtd, Scientist-G, DST</p>
+                  <p className="text-lg text-foreground">9. Dr. N.V Srikanth Professor, NIT Warangal</p>
+                  <p className="text-lg text-foreground">10. Dr. M. Suryakalavathi, Professor, JNTUH</p>
+                  <p className="text-lg text-foreground">11. Dr. K. Vaisakh, Professor, Andhra University</p>
+                  <p className="text-lg text-foreground">12. Dr. P. Sujatha, Professor, JNTUA</p>
+                  <p className="text-lg text-foreground">13. Dr. C. Shoba Bindu, Professor, JNTUA</p>
+                  <p className="text-lg text-foreground">14. Dr. V.C. Usha Reddy, Associate Professor, SVU</p>
                 </div>
+              </div>
+
+              {/* International Advisory Committee */}
+              <div>
+                <h2 className="text-2xl font-bold text-primary mb-6">International Advisory Committee:</h2>
                 <div className="space-y-3">
-                  <p className="text-lg text-foreground">Dr. J. Chinna Babu</p>
-                  <p className="text-lg text-foreground">Dr. P Phanindra Kumar Reddy</p>
-                  <p className="text-lg text-foreground">Dr. N. Penchalaiah</p>
-                  <p className="text-lg text-foreground">Dr. L. Obulapathi</p>
-                  <p className="text-lg text-foreground">Dr T Navaneetha</p>
-                  <p className="text-lg text-foreground">Dr. C. Madana Kumar Reddy</p>
-                  <p className="text-lg text-foreground">Dr. Ragavan Kanagaraj</p>
-                </div>
-                <div className="space-y-3">
-                  <p className="text-lg text-foreground">Dr. Chandrashekhar N. Bhende</p>
-                  <p className="text-lg text-foreground">Dr. R. Gnanadass</p>
-                  <p className="text-lg text-foreground">Dr. V. Sandeep</p>
-                  <p className="text-lg text-foreground">Dr. Y. Chandrasekhar</p>
-                  <p className="text-lg text-foreground">Dr. Prabu Mohandas</p>
-                  <p className="text-lg text-foreground">Dr. Rajeswari Sridhar</p>
-                  <p className="text-lg text-foreground">Dr. R. Mohan</p>
+                  <p className="text-lg text-foreground">1. Dr. Apel Mahmud, Professor, Flinders University, Australia</p>
+                  <p className="text-lg text-foreground">2. Dr. Yanxia Sun, Professor, University of Johannesburg, South Africa</p>
+                  <p className="text-lg text-foreground">3. Dr. Meisam Mahdavi, Professor, University of Jaen, Spain</p>
+                  <p className="text-lg text-foreground">4. Dr. Sanjeevikumar Padmanaban, Professor, University of South-Eastern Norway, Norway</p>
+                  <p className="text-lg text-foreground">5. Dr. Geno Peter, Professor, University of Technology Sarawak, Malaysia</p>
+                  <p className="text-lg text-foreground">6. Dr. Mahajan Sagar Bhaskar, Professor, Prince Sultan University, Saudi Arabia</p>
+                  <p className="text-lg text-foreground">7. Dr. Amjad Anvari-Moghaddam, Associate Professor, Aalborg University, Denmark</p>
                 </div>
               </div>
             </div>

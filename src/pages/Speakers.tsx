@@ -4,21 +4,30 @@ import ContentBox from "@/components/ContentBox";
 import PageBanner from "@/components/PageBanner";
 import { Mail } from "lucide-react";
 
+// Import speaker images
+import kennethOkedu from "@/assets/Kenneth E. Okedu.jpg";
+import krismadinata from "@/assets/Dr.  Ir. Krismadinata.jpg";
+import raviSamikannu from "@/assets/new_Dr.Ravi Samikasu.jpg";
+
 const Speakers = () => {
   const speakers = [
     {
-      name: "Dr. Mahajan Sagar Bhaskar",
-      title: "Renewable Energy Lab",
-      affiliation: "Prince Sultan University, Riyadh, Saudi Arabia",
-      topic: "Conference General Co-Chair",
-      email: "sagar25.mahajan@gmail.com"
+      name: "Kenneth E. Okedu",
+      title: "Professor",
+      affiliation: "Melbourne Institute of Technology, Victoria, Australia",
+      image: kennethOkedu
     },
     {
-      name: "Sanjeevikumar Padmanaban",
+      name: "Dr. Ir. Krismadinata",
+      title: "Professor and Rector",
+      affiliation: "Universitas Negeri Padang, Indonesia",
+      image: krismadinata
+    },
+    {
+      name: "Dr. Ravi Samikannu",
       title: "Professor",
-      affiliation: "University of South-Eastern Norway, Porsgrunn, Norway",
-      topic: "Conference General Co-Chair",
-      email: "sanjeevi_12@yahoo.co.in"
+      affiliation: "Botswana International University of Science & Technology, Botswana",
+      image: raviSamikannu
     }
   ];
 
@@ -36,26 +45,23 @@ const Speakers = () => {
               We are honored to have distinguished speakers from academia and industry sharing their expertise.
             </p>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {speakers.map((speaker, index) => (
-                <div key={index} className="border border-border rounded-lg p-6 hover:shadow-lg hover:scale-105 transition-all duration-300">
-                  <div className="w-32 h-32 mx-auto mb-4 bg-muted rounded-full flex items-center justify-center animate-scale-in">
-                    <span className="text-4xl text-primary font-bold">
-                      {speaker.name.split(' ')[1] ? speaker.name.split(' ')[1][0] : speaker.name[0]}
-                    </span>
+                <div key={index} className="border border-border rounded-lg p-6 hover:shadow-lg hover:scale-105 transition-all duration-300 bg-card">
+                  <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+                    <img 
+                      src={speaker.image} 
+                      alt={speaker.name}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(speaker.name)}&background=random&size=160`;
+                      }}
+                    />
                   </div>
-                  <h3 className="text-xl font-bold text-center mb-2">{speaker.name}</h3>
-                  <p className="text-sm text-muted-foreground text-center mb-1">{speaker.title}</p>
-                  <p className="text-sm font-medium text-primary text-center mb-3">{speaker.affiliation}</p>
-                  <p className="text-sm text-center italic mb-3">"{speaker.topic}"</p>
-                  {speaker.email && (
-                    <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                      <Mail className="w-4 h-4" />
-                      <a href={`mailto:${speaker.email}`} className="hover:text-primary transition-colors">
-                        {speaker.email}
-                      </a>
-                    </div>
-                  )}
+                  <h3 className="text-xl font-bold text-center mb-2 text-primary">{speaker.name}</h3>
+                  <p className="text-base text-muted-foreground text-center mb-2 font-medium">{speaker.title}</p>
+                  <p className="text-sm text-center text-foreground leading-relaxed">{speaker.affiliation}</p>
                 </div>
               ))}
             </div>
